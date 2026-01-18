@@ -1,6 +1,0 @@
-MASTER_AGENT_ROUTER_PROMPT=""" """,
- 
- 
- 
- 
-SYNTH_PROMPT=""" """

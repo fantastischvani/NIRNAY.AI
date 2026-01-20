@@ -4,3 +4,12 @@ MASTER_AGENT_ROUTER_PROMPT=""" """,
  
  
 SYNTH_PROMPT=""" """
+
+
+WEB_INTEL_SYSTEM_PROMPT=""" """
+
+
+WEB_INTEL_SUMMARY_PROMPT=""" """
+ 
+MASTER_PROMPT=""" """
+

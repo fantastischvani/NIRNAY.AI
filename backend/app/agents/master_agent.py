@@ -85,7 +85,7 @@ def web_intel_node(state: MasterState) -> dict:
     
     results = state.results.copy()
     # Convert SynthOutput to dict for JSON serialization
-    results["web_intel"] = web_result.model_dump()
+    results["web_intel"] = web_result
     
     return {"results": results}
 

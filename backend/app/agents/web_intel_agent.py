@@ -173,7 +173,14 @@ def handle_user_query(user_query: str):
         }
     
     # If no tool used, return LLM content (unlikely with strict prompt)
-    return {"response": message["content"]}
+    return {"response": message.content}
+
+def run_web_intel_agent(query: str):
+    """
+    Main entry point for the web intelligence agent.
+    Called by master agent to process queries.
+    """
+    return handle_user_query(query)
 
 class WebIntelligenceAgent(BaseAgent):
 

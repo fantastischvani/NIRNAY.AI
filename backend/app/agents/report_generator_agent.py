@@ -51,7 +51,7 @@ Format the response as JSON with:
 """
         
         response = client.chat.completions.create(
-            model="gemini-1.5-flash",
+            model="gemini-3-flash-preview",
             messages=[
                 {"role": "user", "content": message}
             ]
